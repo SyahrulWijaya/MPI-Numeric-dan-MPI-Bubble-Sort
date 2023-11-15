@@ -62,10 +62,10 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    ```bash
    ssh-keygen -t rsa
    ``` 
-3. Pada device master copy key ssh yang sudah di generate pada direktori `.ssh` sebelumnya kesemua slave yang ada. Jangan Lupa untuk menyesuaikan `<namauser>` dengan nama user yang anda miliki.
+3. Pada device master copy key ssh yang sudah di generate pada direktori `.ssh` sebelumnya kesemua slave yang ada. Jangan Lupa untuk menyesuaikan `<namauser>` dengan nama user yang anda miliki dan `<namaslave>` dengan nama slave yang anda miliki. Lakukan perintah tersebut untuk semua slave yang anda gunakan. 
    ```bash
    cd .ssh
    ```
    ```bash
-   cat id_rsa.pub | ssh <namauser>@slave1 "mkdir .ssh; cat >> .ssh/authorized_keys"
+   cat id_rsa.pub | ssh <namauser>@<namaslave> "mkdir .ssh; cat >> .ssh/authorized_keys"
    ```
