@@ -5,6 +5,7 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
 - [Package yang dibutuhkan](#package-yang-dibutuhkan)
 - [Konfigurasi SSH](#konfigurasi-ssh)
 - [Konfigurasi NFS](#konfigurasi-nfs)
+- [Menjalankan MPI-Numeric pada Python(#menjalankan-mpi-numeric-pada-python)
 ## Program yang dibutuhkan
 1. [Ubuntu 20.04.6 Desktop](https://releases.ubuntu.com/focal/)
    - Ubuntu Master
@@ -79,3 +80,15 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    ```bash
    /home/<namauser>/<namadirektori> *(rw,sync,no_root_squash,no_subtree_check)
    ```
+3. Restart NFS Server pada master.
+   ```bash
+   sudo exportfs -a
+   ```
+   ```bash
+   sudo systemctl restart nfs-kernel-server
+   ```
+4. Lakukan mount pada direktori yang telah dibuat sebelumnya, lakukanlah pada semua slave.
+   ```bash
+   sudo mount master:/home/<namauser>/<namadirektori> /home/<namauser>/<namadirektori>
+   ```
+## Menjalankan MPI-Numeric pada Python
