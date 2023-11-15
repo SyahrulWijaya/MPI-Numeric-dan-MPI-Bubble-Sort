@@ -97,7 +97,7 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    ```bash
    touch /home/<namauser>/<namadirektori>/Mpi_Numeric.py
    ```
-2. Isi file python tersebut dengan file py yang saya miliki [disini](https://github.com/SyahrulWijaya/MPI-Numeric-dan-MPI-Bubble-Sort/blob/5daf3118b4ee42cebcdd8c3d19c11f9733513351/Mpi_Numeric.py)
+2. Isi file python tersebut dengan file py yang saya miliki [disini.](https://github.com/SyahrulWijaya/MPI-Numeric-dan-MPI-Bubble-Sort/blob/5daf3118b4ee42cebcdd8c3d19c11f9733513351/Mpi_Numeric.py)
    ```bash
    cd /home/<namauser>/<namadirektori>
    ```
@@ -114,7 +114,7 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    ```bash
    touch /home/<namauser>/<namadirektori>/Mpi_Bubble_Sort.py
    ```
-2. Isi file python tersebut dengan file py yang saya miliki
+2. Isi file python tersebut dengan file py yang saya miliki [disini.](https://github.com/SyahrulWijaya/MPI-Numeric-dan-MPI-Bubble-Sort/blob/f2a964ac22721e1eda8a46160232c01e8fdf0585/Mpi_Bubble_Sort.py)
    ```bash
    cd /home/<namauser>/<namadirektori>
    ```
@@ -122,4 +122,4 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    ```bash
    mpirun -np 4 -host master,slave1,slave2,slave3 python3 Mpi_Bubble_Sort.py
    ```
-![]
+![mpirun -np 4 -host master,slave1,slave2,slave3 python3 versi 2.jpg](https://github.com/SyahrulWijaya/MPI-Numeric-dan-MPI-Bubble-Sort/blob/caa37b9bb1fb679741f5385ceee03f14913c47fb/mpirun%20-np%204%20-host%20master%2Cslave1%2Cslave2%2Cslave3%20python3%20versi%202.jpg)
