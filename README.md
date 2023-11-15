@@ -15,11 +15,11 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
 5. Kode Python
 ## Package yang dibutuhkan
 1. Master
-   - OpenSSH Server:
+   - OpenSSH Server :
    ```bash
    sudo apt install openssh-server
    ```
-   - NFS Kernel Server:
+   - NFS Kernel Server :
    ```bash
    sudo apt install nfs-kernel-server
    ```
