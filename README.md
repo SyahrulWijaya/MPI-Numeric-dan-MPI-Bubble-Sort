@@ -14,7 +14,7 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
 4. NFS (Master dan Slave)
 5. Kode Python
 ## Package yang dibutuhkan
-1. OpenSSH Server
-       ```bash
-       sudo apt install openssh-server
-       ```
+1.OpenSSH Server:
+   ```bash
+   sudo apt install openssh-server
+   ```
