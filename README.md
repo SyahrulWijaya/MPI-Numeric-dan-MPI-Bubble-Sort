@@ -5,7 +5,7 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
 - [Package yang dibutuhkan](#package-yang-dibutuhkan)
 ## Program yang dibutuhkan
 1. Ubuntu 20.04.6 Desktop
-   - Ubuntu Master
+   - [Ubuntu Master]([https://spark.apache.org/documentation.html](https://releases.ubuntu.com/focal/))
    - Ubuntu Slave 1
    - Ubuntu Slave 2
    - Ubuntu Slave 3
