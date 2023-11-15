@@ -1,4 +1,4 @@
-# MPI-Numeric
+# MPI-Numeric dan MPI-Bubble-Sort
 MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digunakan dalam pemrograman paralel. MPI memungkinkan komunikasi antara proses-paralel yang berjalan pada sistem komputasi terdistribusi. Ini adalah salah satu alat yang umum digunakan dalam komputasi paralel dan terutama diterapkan dalam pengembangan aplikasi ilmiah dan rekayasa yang memerlukan pemrosesan sejajar (parallel processing).
 ## Table of Contents
 - [Program yang dibutuhkan](#program-yang-dibutuhkan)
@@ -14,3 +14,8 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
 4. NFS (Master dan Slave)
 5. Kode Python
 ## Package yang dibutuhkan
+1. Master
+      -OpenSSH Server
+       ```bash
+       sudo apt install openssh-server
+       ```
