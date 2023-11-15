@@ -23,3 +23,12 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    ```bash
    sudo apt install nfs-kernel-server
    ```
+   - Open MPI :
+   ```bash
+   sudo apt install openmpi-bin libopenmpi-dev
+   ```
+   - MPI4PY :
+   ```bash
+   sudo apt install python3-pip
+   pip install mpi4py
+   ```
