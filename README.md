@@ -30,5 +30,7 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    - MPI4PY :
    ```bash
    sudo apt install python3-pip
+   ```
+   ```bash
    pip install mpi4py
    ```
