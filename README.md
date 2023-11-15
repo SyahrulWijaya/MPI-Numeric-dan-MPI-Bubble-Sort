@@ -34,5 +34,12 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    ```bash
    pip install mpi4py
    ```
-2. Slave
-   - 
+2. slave
+   -  OpenSSH Server :
+   ```bash
+   sudo apt install openssh-server
+   ```
+   - NFS Common :
+   ```bash
+   sudo apt install nfs-common
+   ```
