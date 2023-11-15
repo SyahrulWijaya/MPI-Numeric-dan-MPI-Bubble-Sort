@@ -4,15 +4,15 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
 - [Program yang dibutuhkan](#program-yang-dibutuhkan)
 - [Package yang dibutuhkan](#package-yang-dibutuhkan)
 ## Program yang dibutuhkan
-1. Ubuntu 20.04.6 Desktop
-   - [Ubuntu Master](https://releases.ubuntu.com/focal/)
+1. [Ubuntu 20.04.6 Desktop](https://releases.ubuntu.com/focal/)
+   - Ubuntu Master
    - Ubuntu Slave 1
    - Ubuntu Slave 2
    - Ubuntu Slave 3
-2. MPI (Master dan Slave)
-3. SSH (Master dan Slave)
-4. NFS (Master dan Slave)
-5. Kode Python
+3. MPI (Master dan Slave)
+4. SSH (Master dan Slave)
+5. NFS (Master dan Slave)
+6. Kode Python
 ## Package yang dibutuhkan
 1. Master
    - OpenSSH Server :
