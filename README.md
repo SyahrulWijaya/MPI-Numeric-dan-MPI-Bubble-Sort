@@ -5,7 +5,7 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
 - [Package yang dibutuhkan](#package-yang-dibutuhkan)
 - [Konfigurasi SSH](#konfigurasi-ssh)
 - [Konfigurasi NFS](#konfigurasi-nfs)
-- [Menjalankan MPI Numeric pada Python(#menjalankan-mpi-numeric-pada-python)
+- [Menjalankan MPI Numeric pada Python](#menjalankan-mpi-numeric-pada-python)
 ## Program yang dibutuhkan
 1. [Ubuntu 20.04.6 Desktop](https://releases.ubuntu.com/focal/)
    - Ubuntu Master
