@@ -92,3 +92,4 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    sudo mount master:/home/<namauser>/<namadirektori> /home/<namauser>/<namadirektori>
    ```
 ## Menjalankan MPI Numeric pada Python
+222
