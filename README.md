@@ -19,3 +19,7 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    ```bash
    sudo apt install openssh-server
    ```
+   - NFS Kernel Server:
+   ```bash
+   sudo apt install nfs-kernel-server
+   ```
