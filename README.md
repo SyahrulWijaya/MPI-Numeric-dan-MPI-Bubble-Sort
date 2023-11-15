@@ -56,16 +56,16 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    pip install mpi4py
    ```
 ## Konfigurasi SSH
-1. Sebelum melakukan konfigurasi SSH, hal yang harus pertama kali dilakukan adalah menentukan 1 buah master dan 3 buah slave yang akan digunakan. Caranya adalah dengan menggunakan perintah `sudo nano /etc/hosts` pada semua master dan salve.
+1. Sebelum melakukan konfigurasi SSH, hal yang harus pertama kali dilakukan adalah menentukan 1 buah master dan 3 buah slave yang akan digunakan. Caranya adalah dengan menggunakan perintah `sudo nano /etc/hosts` pada semua master dan slave.
 ![sudo nano etc hosts](https://github.com/SyahrulWijaya/MPI-Numeric-dan-MPI-Bubble-Sort/blob/2be5d00f7a520aebe0fc313915d2331d95f83f69/sudo%20nano%20etc%20hosts.png)
 2. Pada device master lakukan generate ssh key dengan menggunakan perintah
    ```bash
    ssh-keygen -t rsa
    ``` 
-3. Pada device master copy key ssh yang sudah di generate pada direktori `.ssh` sebelumnya kesemua slave yang ada
+3. Pada device master copy key ssh yang sudah di generate pada direktori `.ssh` sebelumnya kesemua slave yang ada. Jangan Lupa untuk menyesuaikan `<namauser>` dengan nama user yang anda miliki.
    ```bash
    cd .ssh
    ```
    ```bash
-   cat id_rsa.pub | ssh mpiuser@slave1 "mkdir .ssh; cat >> .ssh/authorized_keys"
+   cat id_rsa.pub | ssh <namauser>@slave1 "mkdir .ssh; cat >> .ssh/authorized_keys"
    ```
