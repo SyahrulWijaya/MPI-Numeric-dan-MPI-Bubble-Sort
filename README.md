@@ -6,6 +6,7 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
 - [Konfigurasi SSH](#konfigurasi-ssh)
 - [Konfigurasi NFS](#konfigurasi-nfs)
 - [Menjalankan MPI Numeric pada Python](#menjalankan-mpi-numeric-pada-python)
+- [Menjalankan MPI Bubble Sort pada Python](#menjalankan-mpi-bubble-sort-pada-python)
 ## Program yang dibutuhkan
 1. [Ubuntu 20.04.6 Desktop](https://releases.ubuntu.com/focal/)
    - Ubuntu Master
@@ -96,7 +97,7 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    ```bash
    touch /home/<namauser>/<namadirektori>/Mpi_Numeric.py
    ```
-2. Isi file python tersebut dengan file py yang saya miliki
+2. Isi file python tersebut dengan file py yang saya miliki [disini](https://github.com/SyahrulWijaya/MPI-Numeric-dan-MPI-Bubble-Sort/blob/5daf3118b4ee42cebcdd8c3d19c11f9733513351/Mpi_Numeric.py)
    ```bash
    cd /home/<namauser>/<namadirektori>
    ```
@@ -108,3 +109,17 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    mpirun -np 4 -host master,slave1,slave2,slave3 python3 Mpi_Numeric.py
    ```
 ![mpirun -np 4 -host master,slave1,slave2,slave3 python3.jpg](https://github.com/SyahrulWijaya/MPI-Numeric-dan-MPI-Bubble-Sort/blob/5030266e7d2562d04577676db6b7bd1935690642/mpirun%20-np%204%20-host%20master%2Cslave1%2Cslave2%2Cslave3%20python3.jpg)
+## Menjalankan MPI Bubble Sort pada Python
+1. Buatlah file python pada direktori yang sudah di mount sebelumnya
+   ```bash
+   touch /home/<namauser>/<namadirektori>/Mpi_Bubble_Sort.py
+   ```
+2. Isi file python tersebut dengan file py yang saya miliki
+   ```bash
+   cd /home/<namauser>/<namadirektori>
+   ```
+3. Jalankan file python tersebut pada master
+   ```bash
+   mpirun -np 4 -host master,slave1,slave2,slave3 python3 Mpi_Bubble_Sort.py
+   ```
+![]
