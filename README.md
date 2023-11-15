@@ -34,3 +34,5 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    ```bash
    pip install mpi4py
    ```
+2. Slave
+   - 
