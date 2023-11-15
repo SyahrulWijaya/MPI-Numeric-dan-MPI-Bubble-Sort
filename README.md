@@ -57,4 +57,4 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    ```
 ## Konfigurasi SSH
 1. Sebelum melakukan konfigurasi SSH, hal yang harus pertama kali dilakukan adalah menentukan 1 buah master dan 3 buah slave yang akan digunakan. Caranya adalah dengan menggunakan perintah `sudo nano /etc/hosts`
-(https://github.com/SyahrulWijaya/MPI-Numeric-dan-MPI-Bubble-Sort/blob/2be5d00f7a520aebe0fc313915d2331d95f83f69/sudo%20nano%20etc%20hosts.png)https://github.com/SyahrulWijaya/MPI-Numeric-dan-MPI-Bubble-Sort/blob/2be5d00f7a520aebe0fc313915d2331d95f83f69/sudo%20nano%20etc%20hosts.png)
+![sudo nano etc hosts](https://github.com/SyahrulWijaya/MPI-Numeric-dan-MPI-Bubble-Sort/blob/2be5d00f7a520aebe0fc313915d2331d95f83f69/sudo%20nano%20etc%20hosts.png)https://github.com/SyahrulWijaya/MPI-Numeric-dan-MPI-Bubble-Sort/blob/2be5d00f7a520aebe0fc313915d2331d95f83f69/sudo%20nano%20etc%20hosts.png)
