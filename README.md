@@ -3,6 +3,7 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
 ## Daftar Isi
 - [Program yang dibutuhkan](#program-yang-dibutuhkan)
 - [Package yang dibutuhkan](#package-yang-dibutuhkan)
+- [Konfigurasi SSH](#konfigurasi-ssh)
 ## Program yang dibutuhkan
 1. [Ubuntu 20.04.6 Desktop](https://releases.ubuntu.com/focal/)
    - Ubuntu Master
@@ -54,3 +55,5 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    ```bash
    pip install mpi4py
    ```
+## Konfigurasi SSH
+1. Sebelum melakukan konfigurasi SSH, hal yang harus pertama kali dilakukan adalah menentukan 1 buah master dan 3 buah slave yang akan digunakan. Caranya adalah dengan menggunakan perintah `sudo nano /etc/hosts`
