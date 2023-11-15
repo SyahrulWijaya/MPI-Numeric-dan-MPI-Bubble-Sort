@@ -92,4 +92,18 @@ MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digun
    sudo mount master:/home/<namauser>/<namadirektori> /home/<namauser>/<namadirektori>
    ```
 ## Menjalankan MPI Numeric pada Python
-222
+1. Buatlah file python pada direktori yang sudah di mount sebelumnya
+   ```bash
+   touch /home/<namauser>/<namadirektori>/Mpi_Numeric.py
+   ```
+2. Isi file python tersebut dengan file py yang saya miliki
+   ```bash
+   cd /home/<namauser>/<namadirektori>
+   ```
+   ```bash
+   nano /Mpi_Numeric.py
+   ```
+3. Jalankan file python tersebut pada master
+   ```bash
+   mpirun -np 4 -host master,slave1,slave2,slave3 python3 Mpi_Numeric.py
+   ```
