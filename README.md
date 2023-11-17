@@ -1,6 +1,4 @@
-# 09011282126085
-# Muhammad Syahrul Wijaya
-# SK5A
+# 09011282126085_Muhammad Syahrul Wijaya_SK5A
 
 # MPI-Numeric dan MPI-Bubble-Sort
 MPI, atau Message Passing Interface, adalah sebuah standar komunikasi yang digunakan dalam pemrograman paralel. MPI memungkinkan komunikasi antara proses-paralel yang berjalan pada sistem komputasi terdistribusi. Ini adalah salah satu alat yang umum digunakan dalam komputasi paralel dan terutama diterapkan dalam pengembangan aplikasi ilmiah dan rekayasa yang memerlukan pemrosesan sejajar (parallel processing).
